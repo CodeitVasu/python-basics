@@ -1,0 +1,5 @@
+file = open("output.txt", "w")
+file.write("Hello, this is my first file.\n")
+file.write("Written using Python file handling.\n")
+file.close()
+print("File output.txt written.")
